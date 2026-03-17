@@ -127,7 +127,7 @@ What is CORS and how does Spring handle CORS preflight requests?
 What is the difference between PUT and PATCH? Give an example scenario where PATCH is better.
 Explain how you can secure a REST API using JWT tokens. How do token validation and expiration work?
 
-4...............
+5...............
 
  Infosys 1st round interview questions(2 years)
 
@@ -268,7 +268,7 @@ What are idempotent and safe HTTP methods? Why are they important in REST API de
 Write a Java program using two threads: one prints even numbers and the other prints odd numbers.
 How do you detect and resolve circular dependencies in Spring?
 
-
+8..................
 *Scenario:* You have two threads accessing two shared resources (e.g. File and Database). Sometimes the system freezes.
 *Question:* How would you identify and resolve a deadlock situation in this scenario?
 
@@ -299,54 +299,32 @@ Question: How would you implement this using Java Collections?
 *Scenario:* You are iterating over a collection while another thread modifies it. You get ConcurrentModificationException.
 Question: What is the root cause, and how would you safely iterate over this collection?
 
-07/07/25, 4:15 pm - +91 99162 53554: Before attending any interview, please go through scenario-based interview questions.
-Ebixcash : 
+9...............
 
 Round 1
 
 Introduction 
-
 == Vs equals 
-
 Code ->  given a string, print each character with its occurrence 
-
 Arraylist vs linked list 
-
 Hashmap vs Concurrent Hashmap 
-
 Spring vs spring boot 
-
 Authentication vs Authorization 
-
 How to do Role based Authorization 
-
 What is jpa 
-
 Get vs load in Hibernate 
-
 What is Hibernate 
-
 What is the csrf issue
-
 How to regulate in which request card enabled and in which not
-
 How session based security done 
-
 Curd repository vs jpa repository
-
 Paging and sorting repository 
-
 What is pagable
-
 What is actuator
-
 How to apply paging and sorting in jpa
-
 How to write a custom query in jpa
-
 What is caching and l1 and l2 in Hibernate
-
-
+ =============================Topics ==================
 Session#1 - Java Class Loading Process
 Session#2 - Java Memory Management 
 Session#3 -Java OOPs_SIB_IIB_String_Day
@@ -377,7 +355,8 @@ Session#27 -  Microservices Hands-On (Communication and Zipkin)
 Session#28 -  Microservices Design Patterns
 Session #29 - Microservices Design Patterns and Rest API Best Practices
 Session #30 - HLD and LLD
-
+=====================================
+10...........
 Java 17 Features
 Java 8 Features
 Polymorphism
@@ -411,51 +390,33 @@ Here is how you can handle it:
 Optimistic Locking (Recommended in High-Concurrency Scenarios)
 
 - Use a version field in your Product table (using @Version in JPA).
-
 - When two users try to buy the last item, only one update will succeed.
-
 - The second update will fail with an OptimisticLockException, which you can catch and show a message like "Item is no longer available."
-14/07/25, 4:31 pm - +91 99162 53554: This is an interesting question... mainly asked in case you are working on an e-com or shopping cart-based app / inventory-based app...
+
+11..................
  Java 8 features
-
 Hotel booking application architecture
-
 How to manage which room is available or not
-
 Where to save booking data
-
 What to return in API response for booking data
-
 Java 17 features
-
 What is a Record in Java
-
 What is an immutable data class
-
 How to make a class immutable (with code)
-
 Program: create a map from list of strings using streams
-
 Explain that stream code
-
 Difference between blocking and non-blocking I/O
-
 How to make sure I/O is non-blocking
-
 How Fork/Join framework works
-
 Major enhancements after Java 8
-
 Java Memory Model (JMM)
-
 Volatile keyword
-
 Features and compatibility of do-while loop
-
 What is auto-configuration in Spring Boot
-
 How to customize auto-configuration in Spring Boot
-15/07/25, 4:29 pm - +91 99162 53554: Oops concepts and its use case 
+
+12..........
+Oops concepts and its use case 
 ways of creating thread
 fork join in java
 parallel stream
@@ -479,34 +440,25 @@ relational database vs database
 concept of ACID properties in RDBMS
 data integrity
 Given a list of integers, find out all the numbers starting with 1 using Stream functions? List: {10, 15, 8, 49, 25, 98, 32}
- Java 8/11:
-
-Benefits of lambda
-
-Create BiFunction with first & last name in uppercase
-
-Call a separate function from BiFunction
-
-How to create a function in Java 8
-
-Create ArrayList with default value
-
-Add values like "java", "java 8", and some unique ones
-
-Replace specific values with "Hibernate" and "JPA"
-
-Replace only first occurrence in ArrayList
-
-Frequency of words using Java 8 and Map
-
-Java Classes & Streams:
+ 10..............
+         Java 8/11:
+1.Benefits of lambda
+2.Create BiFunction with first & last name in uppercase
+3.Call a separate function from BiFunction
+4.How to create a function in Java 8
+5.Create ArrayList with default value
+6.Add values like "java", "java 8", and some unique ones
+7.Replace specific values with "Hibernate" and "JPA"
+8Replace only first occurrence in ArrayList
+9.Frequency of words using Java 8 and Map
+          Java Classes & Streams:
 10. Create Employee class, filter age > 20 & < 80
 11. @PostConstruct annotation
 12. @PreDestroy annotation
 13. What is ApplicationContext?
 14. Difference between DTO and Entity
 
-Design & Microservices:
+          Design & Microservices:
 15. What is SOLID design principle?
 16. What is microservices?
 17. Features of microservices
@@ -516,46 +468,33 @@ Design & Microservices:
 21. Benefits of Spring Cloud
 22. Main features of Spring Cloud
 
-Feign Client:
+       Feign Client:
 23. What is Feign Client?
 24. Beauty of Feign Client
+
+12...........
  Opus Technology - Round 2
 
 Introduce yourself 
-
 What is dynamic dispatch loading 
-
 Your requirement is to create new object always when requested. Also why to override hashCode and equals method here.
-
 What is marker interface?
-
 Is just implementing a class as serialisable is enough for allowing serialisable to happen? How internationally it's happing 
-
 What is shallow cloning vs deepcloning 
-
 What are your thoughts on final constructer 
-
 Explain what is rest and why it's very popular. Explain me working of rest in detail 
-
 Why is data encoded in base64 or any other encoding in rest before data is sent
-
 Is rest stateless or statefull 
-
 Which library is used for spring AOP
-
 What is pointcut and joinpoint
-
 What happens if repository and service annotation are interchanged 
-
 What exception is raised if 2 beans are created for one class in java and dependency injection is happing i.e autowired for that class. What are the 3 ways to avoid this exception 
-
 Write a SQL query to Give me count of employees in a dept whose salary is more then 50k
-
 How to change commit message in git
-
 Which version of spring security are you using
 
- Deloitte first round : 
+13.........
+Deloitte first round : 
 
 1-Explain Deep copy & shallow copy. Where you implemented in your project
 2-Best way of logging in springboot application
@@ -571,83 +510,48 @@ Which version of spring security are you using
 12-in microservices what is better for internal communication & what is better for external communication
 13-Docker profiling System - how to handle in sb
 
+14..........
 What are Java 8 features?
-
 Explain Comparable vs Comparator.
-
 What is the use of the static keyword?
-
 What are functional interfaces in Java 8?
-
 How can we improve Java application performance?
-
 Explain your Easy Stay project (Booking domain).
-
 Explain Philips Online Store project.
-
 What was your team size?
-
 What were the biggest challenges you faced?
-
 What was your role and contributions?
-
 Which UI technologies did you use?
-
 What kind of support did you get from the team?
-
 How did you collaborate in the team?
-
 How did you handle stakeholder requirements and timelines?
-
 Explain your database schema.
-
 Where did you use MongoDB?
-
 Difference between relational and non-relational databases.
-
 How is indexing maintained in both types?
-
 Do we use primary keys in MongoDB?
-
 Which annotations are used at compile time?
-
 What happens if an annotation fails?
-
 How do you handle annotation failures in Spring?
-
 What Hibernate annotations did you use?
-
 If Hibernate is used, is writing queries still required?
-
 What is JWT Token?
-
 What security measures are taken with JWT?
-
 What is AWS S3 and how did you use it?
-
 What design patterns have you used?
-
 Where and how did you implement Singleton?
-
 How does Singleton help in order/cart modules?
-
 What will you do if you get stuck in logic?
-
 How do you motivate yourself as a single deliverer?
-
 If a new project requires another tech stack, what’s your approach?
-
 Explain Spring MVC application load/init/execution flow.
-
 Explain Agile framework and how you followed it.
-
 What is a review meeting?
-
 How are APIs generated during the project?
-
 Difference between Monolithic and Microservices architecture.
 Which one did you use and why?
 
+15............
  Bristlecone (1st Round)
 
 Explain the project architecture.
