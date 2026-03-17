@@ -1,0 +1,2544 @@
+﻿1.........
+ Infinite computer solutions 
+
+Round 1
+What is spring - why used
+What are the components you used of spring 
+How jpa is different from jdbc
+Write a named query 
+You have 2 process? How will you communicate with it assuming it's in same or different system. Tell all the approach considering both the situations.
+What is topic in mq and how is it different from queue 
+What is CopyOnWriteArrayList
+What is ConcurrentHashMap and how is it different from Hashtable.
+
+During peak hr there is limited product quantity and huge no of request. How will you handle it. ( Not rate limiter use multi threading approch)
+      In above scenario Let's suppose there is cart, checkout and payment then which method you will keep synchronised.
+
+2..............
+Coditas Technology 
+
+Round 1 : 
+What java version using in project 
+What features are there in java 8
+Default method vs static method of interface 
+What new features came in java 8 for concurrency 
+Your project architecture
+What things you used in spring boot and microservices 
+How Hibernate works and how will you configure it.
+Sql vs hql
+Map vs flatmap in streams 
+How you tackle versioning in spring boot 
+Explain Saga pattern
+Explain about functional interface
+Calculate the average age of a list of Person objects using Java streams.
+Find the longest string in a list of strings using Java streams.
+Check if a list of integers contains a prime number using Java streams.
+Find the frequency of each word in a list of strings using Java streams.
+Remove duplicates from a list while preserving the order using Java streams.
+Merge two sorted lists into a single sorted list using Java streams.
+Find the intersection of two lists using Java streams.
+Given a list of transactions, find the sum of transaction amounts for each day using Java streams.
+Find the kth smallest element in an array using Java streams.
+Group a list of employees by their department using Java streams.
+Partition a list of numbers into even and odd using Java streams.
+Convert a list of strings to uppercase and sort them using Java streams.
+Find the first non-repeating character in a string using Java streams.
+Determine the maximum salary from a list of employee objects using Java streams.
+Count the number of elements in a list that start with a specific letter using Java streams.
+Convert a list of objects to a Map using a specific field as the key using Java streams.
+Flatten a list of lists into a single list using Java streams.
+Find all palindromes in a list of strings using Java streams.
+Check if all elements in a list match a given predicate using Java streams.
+Skip the first n elements and limit to m elements using Java streams.
+
+3.............
+
+How do you test your API after designing it?
+How do you test your API on a different port and switch from HTTP to HTTPS?
+A nullable column exists in the database but is not present in the entity class. Will Hibernate throw an error on save?
+Difference between Queue and Topic.
+Difference between ArrayList and Set.
+How does Set handle uniqueness?
+How does HashMap handle uniqueness?
+In a HashMap, can we enforce uniqueness based on one field of a class even if other fields are different?
+Can multiple threads modify a HashMap concurrently?
+How to restrict multiple threads from accessing a HashMap at the same time?
+How does ConcurrentHashMap implement bucket-level locking?
+If only one thread should modify a resource but multiple threads can read it, how would you achieve it?
+What is synchronized block in Java?
+Difference between final, finally, and finalize.
+A super admin wants to fetch all records from the database. How will you handle it efficiently to avoid UI timeout and prevent duplicate records in the response?
+Write a SQL query to get name and count of courses enrolled by users who have enrolled in more than one course.
+A thread is taking too long and other threads are waiting. It’s not a deadlock. How will you handle it?
+
+4...........
+Beginner Level :
+Convert a list of strings to uppercase and sort them using Java streams.
+Remove duplicate elements from a list while maintaining insertion order using Java streams.
+Count how many strings in a list begin with a specific letter using Java streams.
+Skip the first n elements and limit the stream to the next m elements using Java streams.
+Check whether all elements in a list satisfy a given condition using Java streams.
+Check if any element in a list of integers is a prime number using Java streams.
+Identify the longest string in a list using Java streams.
+Partition a list of integers into even and odd groups using Java streams.
+Intermediate Level:
+Find all palindrome strings from a list using Java streams.
+Convert a list of objects into a Map, using a specific field as the key, via Java streams.
+Calculate the frequency of each word in a list of strings using Java streams.
+Flatten a list of lists into a single list using Java streams.
+Determine the maximum salary from a list of Employee objects using Java streams.
+Group a list of Employees by their department using Java streams.
+Find the intersection of two lists using Java streams.
+Advanced Level:
+Find the first non-repeating character in a string using Java streams.
+Merge two sorted lists into one sorted list using Java streams.
+Retrieve the k th smallest element in an array using Java streams.
+Aggregate transaction amounts by date from a list of transactions using Java streams.
+ 2nd round :
+
+What is the difference between final, finally, and finalize()? How would you use each in a real-world scenario?
+How does Java achieve platform independence while still being dependent on native JVM implementations?
+Explain the Java Memory Model and how it affects multithreaded applications.
+What is the difference between == and .equals() in Java? How would you override equals() and hashCode() properly?
+Describe the significance of the volatile keyword in Java. How is it different from synchronized?
+How does Java handle thread starvation and priority inversion?
+Explain the working of ConcurrentHashMap. Why is it preferred over Hashtable in multi-threaded apps?
+What happens when an exception is thrown in a finally block? What if both try and finally throw exceptions?
+How does garbage collection work in Java? Explain different GC algorithms (like G1 and CMS) and when to use which.
+What are method references and functional interfaces in Java 8? Provide an example of a custom functional interface.
+How does Spring achieve inversion of control (IoC)? Explain constructor and setter injection.
+What is the difference between @Component, @Service, @Repository, and @Controller? How does Spring treat them differently?
+Explain the Spring Bean lifecycle. How do @PostConstruct, @PreDestroy, InitializingBean, and DisposableBean fit in?
+What is the difference between ApplicationContext and BeanFactory? When would you use one over the other?
+How does Spring handle circular dependencies between beans? What are ways to resolve it?
+What is the role of @Transactional? What issues can arise with transaction propagation and rollback rules?
+How does Spring Boot auto-configuration work? What’s the use of @EnableAutoConfiguration and spring.factories?
+What are the key differences between @RestController and @Controller? Can you mix both in the same class?
+Explain how Spring Security handles authentication and authorization in a stateless REST API.
+How do Profiles work in Spring Boot? How would you set up different environments (dev/test/prod)?
+What are idempotent and safe HTTP methods? Which methods fall under these categories and why is it important?
+How do you handle versioning in REST APIs? Compare URI versioning vs. Header versioning.
+What is HATEOAS and how does it benefit REST API design? Would you use it in microservices?
+Explain the concept of statelessness in REST. How do you manage authentication in a stateless REST API?
+How do you handle file uploads and downloads in Spring Boot REST APIs with large file sizes?
+How do you design error handling in REST APIs? Explain usage of @ControllerAdvice, ResponseEntityExceptionHandler.
+What is the role of HTTP status codes? Give examples of when to use 200, 201, 204, 400, 401, 500.
+What is CORS and how does Spring handle CORS preflight requests?
+What is the difference between PUT and PATCH? Give an example scenario where PATCH is better.
+Explain how you can secure a REST API using JWT tokens. How do token validation and expiration work?
+
+4...............
+
+ Infosys 1st round interview questions(2 years)
+
+1. OOP concepts
+2. Thread life cycle ways to create threads 
+3. Find even and odd no using 2 threads program
+4. Program to find second largest no using streams and without built in functions both ways 
+5. Collection and collections difference 
+6. Fail safe and fail fast iterators 
+7. Find no starts with 1 from list of integers using java 8 
+8. Exceptions 
+9. Custom exceptions , how to create 
+10. Singleton class , write code for it 
+11. Synchronization 
+12. Rest vs SOAP
+13. Interceptors
+14. Spring actuators 
+15. Maven 
+16. Query to find no of repeated names from employee table with frequency of each name 
+17. Joins 
+18. Constraints 
+19. Indexing
+
+6.......
+ Tesco Bangalore.
+
+How does Java achieve platform independence?
+What causes a memory leak in Java and how do you detect it?
+Explain how the Stream API in Java 8 can improve code readability and performance.
+Describe how HashMap works internally, especially during collisions.
+What are the differences between JPA and Hibernate?
+What is the purpose of equals() and hashCode() methods? How do they affect collections?
+Explain the full lifecycle of a Spring Bean.
+What is the difference between @Autowired and @Inject? When should you use constructor injection over field injection?
+What are the different caching levels in Hibernate? How would you configure second-level cache?
+What is the difference between @Transactional at method vs class level in Spring?
+What is ACID compliance, and how is it ensured in modern RDBMS?
+How does Java  garbage collector work? Can you force GC?
+What are the pitfalls of using lazy loading in Hibernate?
+How does Spring Boot achieve auto-configuration? What mechanism is used under the hood?
+What is the N+1 problem in ORM and how do you solve it?
+Describe the structure of the JVM. What are metaspace and permgen?
+How does a ConcurrentHashMap achieve thread safety without locking the entire map?
+What is the difference between optimistic and pessimistic locking?
+Can you explain the role of FunctionalInterface in Java 8? Why does it matter?
+How would you implement a custom security rule using Spring Security?
+What happens if a bean is declared as @Scope("prototype") but injected into a singleton?
+How does a JDBC connection pool help performance? What libraries can you use for pooling?
+What are the trade-offs between microservices and monolithic architecture?
+How does flatMap differ from map in stream processing?
+What is method reference in Java 8? How is it different from lambda?
+How do you troubleshoot high CPU usage in a Java application?
+What are thread-safe alternatives to ArrayList and HashMap?
+How would you optimize a slow-performing SQL query?
+How does Spring handle dependency injection at runtime?
+What is the purpose of the @ControllerAdvice annotation in Spring?
+What is a cyclic barrier in multithreading? How is it different from a countdown latch?
+Describe the use of @Query, @NamedQuery, and @NativeQuery in Spring Data JPA.
+Explain the differences between fetch = FetchType.LAZY and fetch = FetchType.EAGER.
+How do you secure REST APIs with JWT in a Spring Boot application?
+What is the use of @EnableAutoConfiguration? Can you override it?
+How can you prevent SQL Injection vulnerabilities in a Spring Boot app?
+What is the difference between ExecutorService and ForkJoinPool?
+Explain the concept of dirty checking in JPA/Hibernate.
+How do you ensure data consistency across services in a distributed system?
+How is circuit breaking implemented in Spring Cloud?
+What are the disadvantages of Java’s synchronized blocks or methods?
+What are the different isolation levels in a database transaction? How does it affect concurrency?
+What is the difference between GET, POST, PUT, and PATCH?
+How do you handle circular dependencies in Spring?
+What are some good practices for securing sensitive data in a Spring Boot application?
+How would you tune JVM for a production microservice application?
+How does Spring Boot handle environment-based configurations (dev, test, prod)?
+What is the role of @RestController and how is it different from @Controller?
+Describe the process of batch processing using Spring Batch.
+What is the purpose of using @Value and @ConfigurationProperties in Spring Boot?
+
+7......continue
+Consolidated Questions from this week's interview.* 
+What are the drawbacks of lazy loading in Hibernate and how do you mitigate them in production apps?
+How does Java achieve platform independence despite relying on native JVM implementations?
+How do you ensure data consistency across distributed microservices? Discuss SAGA and event-driven patterns.
+How does Spring Cloud implement circuit breaking? What libraries are typically used (e.g., Resilience4j)?
+How would you find all numbers starting with '1' from a list of integers using Java 8 Streams?
+How do you handle versioning in REST APIs? Compare URI vs Header versioning.
+What is the N+1 select problem in ORM? How can it be detected and resolved?
+Compare fetch = FetchType.LAZY and fetch = FetchType.EAGER. When should each be used?
+What are fail-fast and fail-safe iterators in Java? How do they differ in behavior and implementation?
+How does Spring Boot handle file uploads/downloads of large files in a REST API?
+What is the role of @RestController and how is it different from @Controller? Can you mix both in the same class?
+How do you design error handling in REST APIs? Explain the use of ResponseEntityExceptionHandler.
+How does a ConcurrentHashMap ensure thread safety without locking the entire map?
+How do you handle CORS and preflight requests in Spring Boot REST APIs?
+What are the implications of injecting a prototype-scoped bean into a singleton-scoped bean? How can it be resolved?
+What is the purpose of @Value and @ConfigurationProperties in Spring Boot? When should you use each?
+Compare @Autowired vs @Inject. Why is constructor injection generally preferred over field injection?
+How does Spring Boot achieve auto-configuration under the hood? What is the role of spring.factories and @EnableAutoConfiguration?
+How does Java handle memory leaks? How can tools like VisualVM or heap dumps help detect them?
+Explain the full lifecycle of a Spring Bean. How do annotations like @PostConstruct and @PreDestroy fit in?
+What is ACID compliance, and how do modern RDBMS systems ensure it during concurrent transactions?
+How does Spring Security handle stateless authentication and authorization in REST APIs?
+What is the purpose and difference between final, finally, and finalize()? Provide real-world use cases.
+How does Java handle thread starvation and priority inversion?
+What is the purpose of @ControllerAdvice? How does it enhance global exception handling in REST APIs?
+How would you correctly override equals() and hashCode()? How do they affect object equality in collections?
+What is the difference between == and .equals() in Java?
+Explain how dirty checking works in Hibernate. When can it lead to unexpected database writes?
+What are thread-safe alternatives to ArrayList and HashMap in Java? When would you use them?
+What is HATEOAS in REST API design? How does it enhance discoverability in microservices?
+What are the different transaction isolation levels in databases? How do they impact data consistency and concurrency?
+How do you create a thread-safe Singleton class in Java? Provide an example.
+What is the difference between PUT and PATCH in REST APIs? When is PATCH more appropriate?
+How does Java achieve thread safety without synchronizing the whole collection?
+What is the difference between ApplicationContext and BeanFactory? When would you use one over the other?
+What are the drawbacks of using synchronized blocks or methods in Java? What are better alternatives?
+Write an SQL query to find duplicate employee names and count the frequency of each.
+How does Java Garbage Collection work? Compare G1, CMS, and other GC algorithms.
+What are the trade-offs between a monolithic architecture and microservices?
+How does Spring handle circular dependencies between beans? What patterns help to avoid them?
+What is the role of Functional Interfaces in Java 8? How do method references improve code clarity?
+What is the difference between map() and flatMap() in stream processing?
+What are the key differences between @Query, @NamedQuery, and @NativeQuery in Spring Data JPA?
+What is the purpose of @Component, @Service, @Repository, and @Controller? How does Spring treat them differently?
+How do you optimize a slow SQL query? Discuss indexing, query structure, and execution plans.
+How does Spring achieve Inversion of Control (IoC)? Compare constructor vs setter injection.
+How do Profiles work in Spring Boot? How would you configure different environments like dev/test/prod?
+How do you secure REST APIs in Spring Boot using JWT tokens? How do token validation and expiration work?
+Explain how the Stream API in Java 8 improves code readability and performance.
+How does Spring Boot handle environment-specific configuration using profiles?
+How do you implement a custom security rule using Spring Security annotations or filters?
+What are the differences between JPA and Hibernate? How does Hibernate implement the JPA specification?
+How would you find the second-largest number in an array using Java Streams and without built-in functions?
+What are database constraints (e.g  UNIQUE, CHECK, FOREIGN KEY)? How do they impact schema design?
+How does the Java Memory Model affect multithreaded application behavior?
+Compare the behavior of volatile and synchronized in Java concurrency.
+What is the difference between @Query and native queries in Spring Data?
+What are idempotent and safe HTTP methods? Why are they important in REST API design?
+Write a Java program using two threads: one prints even numbers and the other prints odd numbers.
+How do you detect and resolve circular dependencies in Spring?
+
+
+*Scenario:* You have two threads accessing two shared resources (e.g. File and Database). Sometimes the system freezes.
+*Question:* How would you identify and resolve a deadlock situation in this scenario?
+
+*Scenario:* You are using an ArrayList to store user sessions accessed by multiple threads. Occasionally, ConcurrentModificationException occurs.
+*Question:* What could be the issue, and how would you fix it while maintaining performance?
+
+*Scenario:* You have a queue where producers add tasks and consumers process them. Sometimes tasks are lost.
+*Question:* How would you implement this scenario using Java threads to ensure no task is lost and performance is optimal?
+
+*Scenario:* You need to perform tasks in parallel, but you also need each task’s result.
+*Question:* Why would you use Callable and Future instead of Runnable here?
+
+*Scenario:* You have thousands of small independent tasks to process concurrently.
+*Question:* What thread mechanism will you use, and how would you tune it for optimal performance?
+
+*Scenario:* You need to maintain the insertion order of elements and allow fast access by index.
+*Question:* Which collection would you choose and why?
+
+*Scenario:* Your code uses a HashMap that is accessed and modified by multiple threads. Occasionally, the map seems corrupted.
+Question: What is happening, and how would you fix it?
+
+*Scenario:* You are reading millions of records from a file into memory and need to eliminate duplicates.
+Question: What collection would you use, and why?
+
+*Scenario:* You have a list of Employee objects (with name, age, salary) and need to sort them by salary descending and then name ascending.
+Question: How would you implement this using Java Collections?
+
+*Scenario:* You are iterating over a collection while another thread modifies it. You get ConcurrentModificationException.
+Question: What is the root cause, and how would you safely iterate over this collection?
+
+07/07/25, 4:15 pm - +91 99162 53554: Before attending any interview, please go through scenario-based interview questions.
+Ebixcash : 
+
+Round 1
+
+Introduction 
+
+== Vs equals 
+
+Code ->  given a string, print each character with its occurrence 
+
+Arraylist vs linked list 
+
+Hashmap vs Concurrent Hashmap 
+
+Spring vs spring boot 
+
+Authentication vs Authorization 
+
+How to do Role based Authorization 
+
+What is jpa 
+
+Get vs load in Hibernate 
+
+What is Hibernate 
+
+What is the csrf issue
+
+How to regulate in which request card enabled and in which not
+
+How session based security done 
+
+Curd repository vs jpa repository
+
+Paging and sorting repository 
+
+What is pagable
+
+What is actuator
+
+How to apply paging and sorting in jpa
+
+How to write a custom query in jpa
+
+What is caching and l1 and l2 in Hibernate
+
+
+Session#1 - Java Class Loading Process
+Session#2 - Java Memory Management 
+Session#3 -Java OOPs_SIB_IIB_String_Day
+Session#4 - String and Exception Handling 
+Session#5 - Serialization and Marker interface
+Session#6 - Collection Framework [List and Set]
+Session#7 - Collection Framework [Set and Map]
+Session#8 - Functional Interface, Streams, Lambda Interface
+Session#9 - Streams, Optional, Default and  Static Methods (Interface
+Session#10 -  Cloning Comparator Comparable WeakHashMap etc
+Session#11 -  Java Threads Part-1
+Session#12 -  Java Threads Part-2
+Session#13 -  Java Interview Question Discussion
+Session#14 -  Spring Core
+Session#15 - Spring Data JPA
+Session#16 -  Spring Web MVC
+Session#17 - Spring Security 
+Session#18 -  Spring AOP, Validation, Cache
+Session#19 -  Apache Kafka Part- 1
+Session#20 -  Apache Kafka Part-2 
+Session#21 -  Apache Kafka Part-3 (
+Session#22 -  Apache Kafka Interview 
+Session#23 -  Spring Boot (23rd June 2025)
+Session#24-  Interview Discussion
+Session#25 -  Microservice Architecture
+Session#26 -  Microservices Hands-On (API Gateway, Discovery Service, Config Server)
+Session#27 -  Microservices Hands-On (Communication and Zipkin)
+Session#28 -  Microservices Design Patterns
+Session #29 - Microservices Design Patterns and Rest API Best Practices
+Session #30 - HLD and LLD
+
+Java 17 Features
+Java 8 Features
+Polymorphism
+Abstraction vs Encapsulation
+String in Java
+String Pool
+Heap vs SCP
+StringBuilder vs StringBuffer
+Wrapper Classes
+Why Wrapper is Immutable
+HashMap
+Internal Working of HashMap
+HashMap  balance tree Conversion
+Binary Search use shorting 
+Exception in Java
+Custom Exception
+Spring Features
+Types of DI
+@Controller vs @RestController
+Controller vs Service vs Repository
+JPA Hibernate N+1 Problem
+Kafka Benefits
+Armstrong Number Program
+ 
+If you have only one product left in stock and two customers try to buy it at the same time, 
+how would you handle it to ensure consistency?
+
+Expected Answer: You need to prevent race conditions and ensure data consistency through proper concurrency control. 
+Here is how you can handle it:
+
+Optimistic Locking (Recommended in High-Concurrency Scenarios)
+
+- Use a version field in your Product table (using @Version in JPA).
+
+- When two users try to buy the last item, only one update will succeed.
+
+- The second update will fail with an OptimisticLockException, which you can catch and show a message like "Item is no longer available."
+14/07/25, 4:31 pm - +91 99162 53554: This is an interesting question... mainly asked in case you are working on an e-com or shopping cart-based app / inventory-based app...
+ Java 8 features
+
+Hotel booking application architecture
+
+How to manage which room is available or not
+
+Where to save booking data
+
+What to return in API response for booking data
+
+Java 17 features
+
+What is a Record in Java
+
+What is an immutable data class
+
+How to make a class immutable (with code)
+
+Program: create a map from list of strings using streams
+
+Explain that stream code
+
+Difference between blocking and non-blocking I/O
+
+How to make sure I/O is non-blocking
+
+How Fork/Join framework works
+
+Major enhancements after Java 8
+
+Java Memory Model (JMM)
+
+Volatile keyword
+
+Features and compatibility of do-while loop
+
+What is auto-configuration in Spring Boot
+
+How to customize auto-configuration in Spring Boot
+15/07/25, 4:29 pm - +91 99162 53554: Oops concepts and its use case 
+ways of creating thread
+fork join in java
+parallel stream
+interface vs abstract class
+project explanation with architecture
+best practices for testing in spring boot 
+How to check health of code
+actuator and its main services
+spring bean scope
+how these scopes affect the development process 
+how do you handle the exceptions in sb
+how do you handle data validation in sb using annotations
+component, service, repository,
+Stateless Restful api............
+restful api vs traditional soap based services
+how do you manage error handling in restful api in microservices.
+advantages and disadvantages of using mongoDB over postgreSQL
+strategies for indexing large scale database
+tools used for migrating database
+relational database vs database
+concept of ACID properties in RDBMS
+data integrity
+Given a list of integers, find out all the numbers starting with 1 using Stream functions? List: {10, 15, 8, 49, 25, 98, 32}
+ Java 8/11:
+
+Benefits of lambda
+
+Create BiFunction with first & last name in uppercase
+
+Call a separate function from BiFunction
+
+How to create a function in Java 8
+
+Create ArrayList with default value
+
+Add values like "java", "java 8", and some unique ones
+
+Replace specific values with "Hibernate" and "JPA"
+
+Replace only first occurrence in ArrayList
+
+Frequency of words using Java 8 and Map
+
+Java Classes & Streams:
+10. Create Employee class, filter age > 20 & < 80
+11. @PostConstruct annotation
+12. @PreDestroy annotation
+13. What is ApplicationContext?
+14. Difference between DTO and Entity
+
+Design & Microservices:
+15. What is SOLID design principle?
+16. What is microservices?
+17. Features of microservices
+18. What is loose coupling?
+19. What is fault tolerance?
+20. What is Spring Cloud?
+21. Benefits of Spring Cloud
+22. Main features of Spring Cloud
+
+Feign Client:
+23. What is Feign Client?
+24. Beauty of Feign Client
+ Opus Technology - Round 2
+
+Introduce yourself 
+
+What is dynamic dispatch loading 
+
+Your requirement is to create new object always when requested. Also why to override hashCode and equals method here.
+
+What is marker interface?
+
+Is just implementing a class as serialisable is enough for allowing serialisable to happen? How internationally it's happing 
+
+What is shallow cloning vs deepcloning 
+
+What are your thoughts on final constructer 
+
+Explain what is rest and why it's very popular. Explain me working of rest in detail 
+
+Why is data encoded in base64 or any other encoding in rest before data is sent
+
+Is rest stateless or statefull 
+
+Which library is used for spring AOP
+
+What is pointcut and joinpoint
+
+What happens if repository and service annotation are interchanged 
+
+What exception is raised if 2 beans are created for one class in java and dependency injection is happing i.e autowired for that class. What are the 3 ways to avoid this exception 
+
+Write a SQL query to Give me count of employees in a dept whose salary is more then 50k
+
+How to change commit message in git
+
+Which version of spring security are you using
+
+ Deloitte first round : 
+
+1-Explain Deep copy & shallow copy. Where you implemented in your project
+2-Best way of logging in springboot application
+3-Suppose there are some errors in sb app , where we can apply the logger so we can trace the app 
+4-How we can implement code safety in core java 
+5-How do you secure your apis so that others know the endpoint but cannot access it ?
+6-spring 2 - spring 3 difference ?
+7- In how many ways we can write REST API for the common method name ?
+8-Memory management before & after java 8
+9-mapping a relationship in JPA where one entity(company) has a composite key and the other(Employee) has a primary key requires special handling.Explain 
+10-n+1 queries
+11-disadvantages of stream api
+12-in microservices what is better for internal communication & what is better for external communication
+13-Docker profiling System - how to handle in sb
+
+What are Java 8 features?
+
+Explain Comparable vs Comparator.
+
+What is the use of the static keyword?
+
+What are functional interfaces in Java 8?
+
+How can we improve Java application performance?
+
+Explain your Easy Stay project (Booking domain).
+
+Explain Philips Online Store project.
+
+What was your team size?
+
+What were the biggest challenges you faced?
+
+What was your role and contributions?
+
+Which UI technologies did you use?
+
+What kind of support did you get from the team?
+
+How did you collaborate in the team?
+
+How did you handle stakeholder requirements and timelines?
+
+Explain your database schema.
+
+Where did you use MongoDB?
+
+Difference between relational and non-relational databases.
+
+How is indexing maintained in both types?
+
+Do we use primary keys in MongoDB?
+
+Which annotations are used at compile time?
+
+What happens if an annotation fails?
+
+How do you handle annotation failures in Spring?
+
+What Hibernate annotations did you use?
+
+If Hibernate is used, is writing queries still required?
+
+What is JWT Token?
+
+What security measures are taken with JWT?
+
+What is AWS S3 and how did you use it?
+
+What design patterns have you used?
+
+Where and how did you implement Singleton?
+
+How does Singleton help in order/cart modules?
+
+What will you do if you get stuck in logic?
+
+How do you motivate yourself as a single deliverer?
+
+If a new project requires another tech stack, what’s your approach?
+
+Explain Spring MVC application load/init/execution flow.
+
+Explain Agile framework and how you followed it.
+
+What is a review meeting?
+
+How are APIs generated during the project?
+
+Difference between Monolithic and Microservices architecture.
+Which one did you use and why?
+
+ Bristlecone (1st Round)
+
+Explain the project architecture.
+
+What is Spring Security and how did you implement it in your project?
+
+How do you handle role-based access in your project?
+
+You have S3 for storing—what type of data is stored in your project?
+
+How did you integrate S3 in your Spring Boot app?
+
+You've used different types of databases—how do you maintain data consistency in Spring Boot?
+
+Purpose of both databases in your project?
+
+How do you trace Kafka logs?
+
+Explain Redis caching and how you implemented it in your project.
+
+How do you deploy your Java application using AWS?
+
+How do you monitor your Spring Boot application?
+
+Explain Circuit Breaker and API Gateway—how do they work and how did you implement them?
+
+How do you test REST APIs?
+
+Difference between PUT and PATCH.
+
+What happens when you send a request body through a GET request?
+
+What is idempotency and what happens when you send repeated requests?
+
+How do you test your code?
+
+Difference between Mockito and JUnit.
+
+How to mock a void method in Mockito?
+
+How to verify that a method is called with specific arguments in Mockito?
+
+How to test Kafka producer logic with Mockito?
+
+Which tool is used to verify whether application code is optimized?
+
+How do you handle exceptions in Spring Boot?
+
+How does Spring auto-configuration work?
+
+How do you configure multiple data sources in a Spring Boot app?
+
+How do you fetch data from multiple data sources?
+
+What are blocking and non-blocking calls in Java?
+
+What is the volatile keyword and how does it work?
+
+What is immutability and thread safety in Java?
+
+Explain thread safety in Java.
+
+What is ExecutorService and why is it better than manually creating threads?
+
+What are the features of Java 17?
+
+Difference between var and record.
+
+What is a text block in Java 17?
+
+What is a Lambda expression?
+ Performance
+-----------
+
+Your query is taking 30+ seconds to return results in production. What steps would you take to identify and resolve the performance bottleneck?
+
+After deploying a release to production, users report a critical issue via a ticket. You are already engaged in another task. How do you prioritize and resolve it?
+
+AWS, EC2, S3, Deployment
+------------------------
+
+Your Spring Boot application is deployed on AWS EC2. Describe your deployment pipeline and how you ensure zero downtime.
+
+You're storing files in AWS S3. What kind of data is stored there and how did you integrate S3 with your Spring Boot service?
+
+How do you handle the scenario where a file upload to S3 fails midway? What retry or fallback mechanisms would you implement?
+
+Spring Security & Role-Based Access
+-----------------------------------
+
+Your project has Admin, Manager, and User roles. How would you restrict access to specific APIs using Spring Security?
+
+You need to implement JWT-based authentication in a microservice. How would you go about it and ensure token validation across services?
+
+Project Architecture & Data Consistency
+---------------------------------------
+
+You’re using MySQL for transactions and MongoDB for analytics. How do you maintain consistency when writing to both in a Spring Boot app?
+
+Can you walk through the architecture of your microservice project, including how services communicate and how data flows between them?
+
+Kafka & Redis Integration
+-------------------------
+
+You have a Kafka producer sending notifications. How would you write unit tests for the producer logic using Mockito?
+
+Your service uses Redis for caching. Describe a scenario where you cached DB results and how you ensured cache invalidation when data changes.
+
+A consumer service stops processing Kafka messages. How would you trace the issue using logs or monitoring tools?
+
+Testing Strategy
+----------------
+
+You need to test your REST APIs before releasing the build. What tools and strategies do you use?
+
+You have a service method that returns void. How do you mock and verify this method using Mockito?
+
+How would you ensure full code coverage using JUnit and Mockito for a Spring Boot service class?
+
+Monitoring, Logging, Exception Handling
+---------------------------------------
+
+How do you monitor your Spring Boot microservices in production and get alerts for failures or high latency?
+
+An exception occurs in one of your REST APIs. How do you handle it globally and return a meaningful response to the client?
+
+API Gateway & Circuit Breaker
+-----------------------------
+
+Your microservice app uses Spring Cloud Gateway and Hystrix. Describe a scenario where the circuit breaker opened and how the fallback logic worked.
+
+Explain how your API Gateway handles authentication and routes traffic to internal services.
+
+REST & HTTP Concepts
+--------------------
+
+A frontend team sends a GET request with a request body. What happens and how would your service handle it?
+
+If a client sends the same PUT request twice, what would happen? How is this different from PATCH? Explain with an example.
+
+Mockito & JUnit
+---------------
+
+You want to verify that a service method was called with a specific argument. How would you do that in Mockito?
+
+How is mocking with @MockBean different from @Mock in a Spring Boot test? When would you use each?
+
+Code Optimization & Tools
+-------------------------
+
+You’ve joined a project where the code quality is poor. Which tool(s) would you use to identify performance or code quality issues?
+
+How do you validate the correctness and performance of a new feature before deploying to production?
+
+Multi Data Source Config
+-------------------------
+
+Your application interacts with both Oracle and MongoDB. How would you configure and switch between the data sources in a Spring Boot app?
+
+Java Multithreading & Java 17 Features
+--------------------------------------
+
+You have a critical background task in Java. Would you use ExecutorService or manually create a thread? Why?
+
+Explain a situation where using a volatile variable helped avoid a race condition in a multithreaded scenario.
+
+You need to share a read-only object across threads. How do you ensure it’s immutable and thread-safe?
+
+In a multithreaded environment, how would you implement a thread-safe counter?
+
+You’re upgrading to Java 17. How would you use record and text block to clean up your DTO and JSON string templates?
+05/08/25, 2:27 pm - +91 99162 53554: Make sure to go through these scenario-driven questions prior to the interview
+
+What is method overloading in Java?
+
+Explain Java 8 features in simple terms.
+
+Why do we use different functional interfaces in Java 8?
+
+What is the Optional class in Java and why is it used?
+
+Name and explain any two commonly used methods of the Optional class.
+
+Given a Map<String, Integer> of employee names and salaries, how do you return a list of employees with a salary > 25,000, sorted in descending order using lambda expressions?
+
+How do you sort employee names in descending order using Java Streams?
+
+Explain the logic of the above stream operation line by line.
+ 
+What are AWS S3 and AWS Lambda? How do they work together?
+
+If I upload a JAR file to Lambda, how does AWS Lambda know which method to invoke?
+
+How do you make an API endpoint call in Java?
+
+If a Lambda handler method needs to call an external API, how do you integrate that API call?
+
+What are some common use cases of AWS S3?
+
+If I upload a PDF to S3, can I append data to it directly? Why or why not?
+
+What are the common caching mechanisms used in Java applications?
+
+What is Redis and how is it used in Java for caching?
+
+How do you implement an in-memory cache in Java?
+
+How can third-party caching libraries like Caffeine or Ehcache be used in Java applications?
+ 
+Java 8 features – Lambda, Streams, Default methods, Optional, Date/Time API
+
+default in interface – why and when to use
+
+Lambda expressions vs Method references – invocation behavior
+
+Custom comparator – anonymous class, lambda, method reference
+
+Comparator vs Comparable – differences and use-cases
+
+Why you can’t use custom logic in Comparable for multiple sorting
+
+volatile – visibility, atomicity, use-cases
+
+synchronized + wait(), notify(), notifyAll() – thread communication
+
+super in static context – why not allowed
+
+Generics in Collections – type safety, restrictions, upper-bounded (? extends Number)
+
+Fail-fast vs Fail-safe iterator – behavior, examples
+
+Future vs CompletableFuture – differences, chaining, non-blocking operations
+
+Executor Framework – fixed/cached/scheduled thread pools, real-world scenarios
+
+Sorting array of strings – char-by-char, then by first character, thought process, time complexity
+
+Streams + Collectors – frequency map, groupingBy, toMap, merge function
+
+Method references – do they invoke immediately or just provide reference
+
+@Transactional – propagation, isolation, readOnly, rollbackFor
+
+READ_COMMITTED isolation level – use-case and behavior
+
+Entity ↔️ Model conversion – serialization, Mapper pattern, Adapter pattern
+
+Design Patterns – Builder (methods, build()), Singleton (rules), Mapper, Adapter
+
+@Async – thread execution, return types (void, Future, CompletableFuture)
+
+Executor Framework in Spring – background tasks, thread pool management
+
+@Profile vs @ConditionalOnProperty – activation triggers, priority, other conditionals (@ConditionalOnClass, @ConditionalOnBean)
+
+@Value – injecting properties, SpEL, default values
+
+@Configuration – why we create it, modular bean management
+
+@Service vs @Component vs @Repository – semantics, relationship
+
+@Primary vs @Qualifier – bean selection, which has higher priority
+
+Spring Scheduler – @Scheduled, fixedRate, fixedDelay, cron, thread behavior
+
+Bean-related issues – missing beans, troubleshooting DI issues, circular dependency
+
+Fail-fast vs fail-safe in collections – implementation, use-case
+
+Converting Entity ↔️ DTO in real projects – best practices, mapping libraries
+
+How to sort dynamically by max element in an array using Streams
+
+How to combine character sort and array sort efficiently
+
+When to use @Qualifier over @Primary in multi-bean injection
+
+Handling concurrent modification in collections – fail-fast vs fail-safe
+
+Thread safety with volatile vs synchronized vs Executor
+
+CompletableFuture chaining for async pipelines
+
+Handling bean creation failures in Spring – missing beans, multiple beans, conditional beans
+
+Using serialization for mapping vs Mapper pattern – pros/cons
+
+Transaction management – propagation + isolation + rollback scenario
+
+Design patterns in Spring Boot context – e.g., Builder for DTOs, Singleton for services, Mapper for entity conversions
+
+When does a Spring bean get initialized?
+
+What are Spring interceptors and their role?
+
+What are @PostConstruct and @PreDestroy annotations used for?
+
+Explain JWT flow in Spring Boot.
+
+How do you create and process a custom annotation in Spring?
+
+What are the Hibernate ORM annotations and their usage?
+
+What is cascading in Hibernate and how do you handle cascading effects?
+
+If I want to change a pipeline stage, which file should I modify?
+
+What is the when directive in a Jenkins Pipeline script and how is it used?
+
+What are the different types of code coverage in JUnit?
+
+How do you deal with statement coverage in JUnit?
+
+ 1. What is the purpose of default and static methods in Java 8 interfaces?
+
+2. Explain try-with-resources in Java.
+
+3. Difference between Set and List?
+
+4. How do you avoid duplicate Employee objects in a Set?
+
+5. When do you use Consumer and Supplier?
+
+6. How do you create a Spring Boot app?
+
+7. How to group Employees by department using Streams?
+
+8. What happens if two beans are interdependent in Spring Boot?
+
+9. How do you call multiple microservices from one API?
+
+10. How do you call secured APIs with token?
+
+11. How to secure a REST endpoint in Spring Boot?
+
+12. How do you cache DB query results at startup?
+
+13. How to handle exceptions globally in Spring Boot?
+
+14. How do you implement role-based access in APIs?
+
+15. How to investigate sudden OutOfMemoryError in production?
+
+16. How to process huge CSV in Spring Boot?
+
+17. How to containerize a Spring Boot app?
+
+18. How to deploy container in AWS?
+
+19. When do you use API Gateway?
+
+20. How do you block wrong URLs in API Gateway?
+
+21. Where do you configure hostname in microservices on K8s?
+
+22. How do ECS microservices get access to S3?
+
+23. How do you solve performance issues in inter-service calls?
+
+24. SQL: Get total amount category-wise from transaction table.
+https://www.linkedin.com/posts/bishnoisuresh_java-microservices-and-spring-boot-interview-activity-7379381931966201856-6WDs/
+
+ What is microservices architecture, and in what ways does it differ from a monolithic architecture?
+
+What advantages do microservices offer?
+
+What common challenges arise when working with microservices?
+
+How can you build microservices using Java?
+
+Which frameworks are typically used for creating Java microservices?
+
+How does Spring Boot simplify microservices development?
+
+What approaches are used for service discovery in Java microservices?
+
+What is Netflix Eureka, and how does it integrate with Spring Cloud?
+
+What are the common ways microservices communicate with each other?
+
+What role does an API Gateway play in a microservices ecosystem?
+
+How can an API Gateway be implemented using Spring Cloud Gateway or Zuul?
+
+What benefits does Feign Client bring to inter-service communication in Spring Boot?
+
+How is Hystrix used to implement the Circuit Breaker pattern in Java?
+
+How can Ribbon be configured for client-side load balancing?
+
+How are configurations managed in Spring Cloud Config?
+
+What role does Spring Security play in securing microservices?
+
+How can authentication and authorization be managed in Java microservices using OAuth2 and JWT?
+
+What is the purpose of using Actuator in Spring Boot microservices?
+
+How can logging and monitoring be implemented in Java microservices using ELK stack, Prometheus, or Grafana?
+
+Design and Implementation
+
+How would you design the architecture of a complex application using microservices?
+
+What are some best practices to follow when designing RESTful APIs for microservices?
+
+How can data consistency be maintained in a microservices-based system?
+
+What strategies can be used to manage transactions across multiple microservices in Java?
+
+What are the different approaches to implementing API versioning in Spring Boot microservices?
+
+What role does Docker play in deploying microservices?
+
+How can Java microservices be deployed using Docker and Kubernetes?
+
+How are dependencies managed in a multi-module Spring Boot project?
+
+What is Domain-Driven Design (DDD), and why is it relevant to microservices?
+
+How do you handle failures in inter-service communication?
+
+How do you test individual microservices in isolation?
+
+What tools or techniques can be used for end-to-end testing of microservices?
+
+How do JUnit and Spring Boot Test support unit testing in microservices?
+
+What approaches are available for mocking dependencies in microservices tests?
+
+How can integration testing be carried out in a microservices environment?
+
+What is contract testing, and how is it applied to microservices?
+
+How can logging be managed in microservices with the help of the ELK stack?
+
+What are some effective debugging techniques for microservices?
+
+How do you monitor microservice health using Spring Boot Actuator?
+
+How can Prometheus and Grafana be used to monitor Java microservices?
+
+What is CI/CD, and how does it apply to microservices deployments?
+
+What are blue-green deployments, and how do they help in microservices?
+
+How can canary releases be implemented in a microservices setup?
+
+What strategies are available for scaling microservices effectively?
+
+How can configuration changes be applied in microservices without redeployments?
+
+What is the sidecar pattern, and how is it applied in microservices?
+
+What methods are used to ensure high availability in microservices architecture?
+
+What best practices should be followed when managing microservices in production?
+
+How can secrets be securely managed in a microservices environment?
+
+Can you describe a real-world scenario where you successfully designed and implemented microservices?
+
+What challenges did you face while implementing microservices, and how did you overcome them?
+
+How is data storage and management handled in a microservices environment?
+
+Can you share an example of a microservice failure you dealt with and how you resolved it?
+
+How do you ensure backward compatibility when upgrading microservices?
+
+What are some common anti-patterns in microservices, and how can they be avoided?
+
+How can caching be implemented in Java microservices?
+
+What is polyglot persistence, and how is it applied in microservices?
+
+How do you implement load balancing in a microservices architecture?
+
+What tools and frameworks have you used for building and managing Java-based microservices?
+
+How is dependency injection handled in Spring Boot microservices?
+
+What are the recommended practices for exception handling in Spring Boot microservices?
+
+What role do Kafka or RabbitMQ play in asynchronous communication between microservices?
+
+How are Hibernate or JPA used in a microservices environment?
+
+How do you perform data validation in Java microservices?
+ https://youtu.be/9-swEBUs0ok?si=iNVp8LGAZSs7wG0n
+ How does Spring Boot auto-configuration actually work internally?
+
+What happens behind the scenes when you run SpringApplication.run()?
+
+Can you disable a specific auto-configuration? If yes, how?
+
+How does Spring Boot manage profiles and environment properties in a microservice setup?
+
+How would you secure an actuator endpoint in Spring Boot?
+
+What’s the difference between @Component, @Service, and @Repository and does it really matter?
+
+How do you handle circular dependency issues in Spring Boot?
+
+How would you externalize configuration for multiple environments in a cloud-native setup?
+
+What’s the difference between @RestControllerAdvice and @ControllerAdvice?
+
+How does Spring Boot support reactive programming?
+What does @SpringBootApplication do internally, and which annotations does it combine?
+
+How is @Configuration different from @Component in Spring Boot?
+
+Why and when would you define a bean manually using @Bean instead of @Component?
+
+What is the default scanning behavior of @ComponentScan, and how can you restrict it to specific packages?
+
+What is the role of @EnableAutoConfiguration, and how does Spring Boot decide which configurations to load?
+
+How does Spring resolve dependency conflicts when multiple beans of the same type exist?
+
+What’s the difference between @Qualifier and @Primary when injecting beans?
+
+How does @Value differ from @ConfigurationProperties, and when should each be used?
+
+What’s the use of @PropertySource, and how does it differ from using application.properties?
+
+What’s the difference between @Controller and @RestController?
+
+How does @RequestMapping differ from @GetMapping, @PostMapping, and other HTTP method annotations?
+
+What’s the difference between @RequestParam and @PathVariable in REST APIs?
+
+How does @RequestBody work internally, and what role does the HttpMessageConverter play?
+
+How can you handle exceptions globally using @ControllerAdvice and @ExceptionHandler?
+
+How does @CrossOrigin help in enabling CORS in Spring Boot microservices?
+
+What’s the difference between @Valid and @Validated, and where do they apply?
+
+What are the essential requirements for a class annotated with @Entity?
+
+What are the different generation strategies available in @GeneratedValue, and when should each be used?
+
+How does @Transactional work, and what happens if you call a transactional method from within the same class?
+
+What’s the role of @Query and @Modifying in Spring Data JPA repositories?
+
+How do you enable and schedule background tasks in Spring Boot using annotations?
+
+How does @Async work, and why might an async method still run synchronously?
+
+How does @ConditionalOnProperty help in enabling or disabling beans based on configuration?
+
+How does @PreAuthorize enforce security at the method level?
+
+What’s the purpose of @EnableWebSecurity, and how does it override Spring Boot’s default security?
+
+What happens when you annotate a test class with @SpringBootTest?
+
+How do @WebMvcTest and @DataJpaTest differ in scope and purpose?
+
+How does @MockBean differ from Mockito’s @Mock?
+
+How does @Profile annotation help in environment-specific bean loading?
+
+What’s the role of @EnableConfigurationProperties, and how does it work with @ConfigurationProperties?
+
+Scenario-Based Questions
+-----------------------------
+
+You have two implementations of a PaymentService interface. How will you inject only one without using XML?
+
+Your scheduled job is not running. What annotations would you check?
+
+Your async method is executing in the same thread - what might be missing?
+
+A REST endpoint throws a validation error, but you want to return a custom message. Which annotations help?
+
+You want to disable a feature in production based on a property. Which annotation do you use?
+
+You have multiple data sources in your Spring Boot app - how do you configure them with annotations?
+
+1.What is microservices architecture, and in what ways does it differ from amonolithic architecture?
+2.What advantages do microservices offer?
+3.What common challenges arise when working with microservices?
+4.How can you build microservices using Java?
+5.Which frameworks are typically used for creating Java microservices?
+6.How does Spring Boot simplify microservices development?
+7.What approaches are used for service discovery in Java microservices?
+8.
+9.  What is Netflix Eureka, and how does it integrate with Spring Cloud?
+10. What are the common ways microservices communicate with each other?
+11. What role does an API Gateway play in a microservices ecosystem?
+12. How can an API Gateway be implemented using Spring Cloud Gateway orZuul?
+13. What benefits does Feign Client bring to inter-service communication in SpringBoot?
+14. How is Hystrix used to implement the Circuit Breaker pattern in Java?
+15. How can Ribbon be configured for client-side load balancing?
+16. How are configurations managed in Spring Cloud Config?
+17. What role does Spring Security play in securing microservices?
+
+https://www.linkedin.com/posts/bishnoisuresh_microservice-interview-activity-7381995937025617920-K0Mt?utm_source=share&utm_medium=member_ios&rcm=ACoAAAL1YTkBn9_zbk-U6LLoTeRptp3lzbvfB_M
+
+What is the difference between a Docker image and a Docker container?
+
+How does Docker handle networking between containers across different hosts?
+
+What is the difference between COPY and ADD in a Dockerfile?
+
+How can you reduce the size of a Docker image?
+
+How does Docker ensure container isolation?
+
+What’s the difference between Continuous Integration, Continuous Delivery, and Continuous Deployment?
+
+How would you handle secrets securely in a CI/CD pipeline?
+
+What’s the purpose of artifact repositories in CI/CD pipelines?
+
+How do you implement rollback in a CI/CD pipeline?
+
+How would you integrate Docker into a CI/CD pipeline?
+
+ 1. Can you explain how authentication works using Spring Security and JWT in your project?
+2. How did you integrate a payment gateway in your application, and what challenges did you face?
+3. What are the key features of Java 8 that you have used in your projects?
+4. Can you explain what a lambda expression is and give a practical example of where you used it?
+5. What is the difference between final, finally, and finalize() in Java?
+6. What does immutability mean in Java, and why is it important?
+7. How have you used the Optional class in Java 8 to handle null values?
+8. Can you explain how a lambda expression works internally in Java?
+9. What are the different types of functional interfaces in Java, and which ones have you used?
+10. How does flatMap() work in Java Streams, and when would you use it over map()?
+11. What is the purpose of map() in Java Streams, and how is it different from flatMap()?
+12. Why does Java not support multiple inheritance with classes, and how do you handle such scenarios?
+13. How does Garbage Collection (GC) work in Java, and what types of GC have you used or tuned?
+14. Can you explain Dependency Injection (DI) and how you applied it in your projects?
+15. What are the different types of Dependency Injection in Java?
+16. What is Inversion of Control (IoC), and how does it relate to DI in real-world applications?
+ Core Java
+
+1. What is ACID in databases?
+
+
+2. Explain method overloading and overriding.
+
+
+3. How to make a class Singleton?
+
+
+4. What is the usage of Singleton?
+
+
+5. What is exception handling in Java?
+
+
+6. Difference between throw and throws.
+
+
+7. What is String immutability and why is it important?
+
+
+8. Difference between HashMap and ConcurrentHashMap.
+
+
+9. What happens if you override equals() but not hashCode()?
+
+
+10. Explain the usage of Future and CompletableFuture.
+
+
+11. Difference between Runnable and Callable.
+
+
+12. What are the main Java 8 features?
+
+
+13. What is a Functional Interface?
+
+
+14. Explain Heap and Stack memory.
+
+
+15. What are the key features of Java 17?
+
+
+16. What is Dependency Injection (DI)?
+
+
+
+
+---
+
+⚙️ Spring & Spring Boot
+
+17. How does Spring Boot Auto-Configuration work internally?
+
+
+18. Explain @Configuration and @Bean annotations.
+
+
+19. Is it possible to create two beans for a single class?
+
+20. How do you connect to a database in Spring Boot?
+
+21. What is AOP (Aspect-Oriented Programming)?
+
+
+22. How do you secure HTTP requests in Spring Boot?
+
+
+
+
+---
+
+🧩 Microservices
+
+23. What is Service Discovery?
+
+
+24. What is an API Gateway?
+
+
+25. How do microservices communicate with each other?
+
+
+
+
+---
+
+⚡ Kafka
+
+26. What are Producer and Consumer in Kafka?
+
+
+27. What are the main components of Kafka?
+
+
+28. How does a consumer know which message to read next?
+
+
+29. Who creates offsets — producer or Kafka?
+
+
+30. What happens if a consumer crashes before committing the offset?
+
+
+31. If one consumer crashes, will another continue reading from the same offset?
+
+
+
+
+---
+
+🗃️ MySQL
+
+32. What is a Primary Key and a Composite Key?
+
+
+
+
+---
+
+💻 Coding / Stream API
+
+33. Write a Java program to find duplicates in an array.
+
+
+34. How to find duplicates using Streams?
+
+
+35. Why do we use a Set for detecting duplicates?
+
+
+36. Why use the Set interface instead of a specific implementation?
+01/11/25, 4:38 pm - +880 1329-665872 joined using a group link.
+01/11/25, 5:13 pm - +91 99162 53554: ### 🔹 Core Java
+
+1. Explain ACID properties.
+2. Introduce yourself and your project tech stack.
+7. What is String immutability and why is it important?
+10. Usage of *Future** and **CompletableFuture**.
+11. Difference between **Runnable** and **Callable**.
+12. Key **Java 17 features**.
+13. What is a **Functional Interface**?
+14. Difference between **Supplier** and **Consumer**.
+15. What are **Immutable Classes**, also write a code to implement Immutability?
+16. How to make an **immutable class with List field**?
+17. Internal working of **HashMap** (short explanation).
+18. Why do we use **Hashtable**?
+19. What is an **Anagram** and how to solve it?
+20. Explain `char[] chars = word.toCharArray();`
+21. What is a **char array**?
+22. Time complexity of `Arrays.sort()` for char[].
+
+---
+
+### 🔹 SQL
+
+23. Difference between **UNION** and **UNION ALL**.
+24. Query to get **4th highest salary** from Employee table.
+25. Explain **DISTINCT** and **OFFSET** keywords.
+
+---
+ What is the purpose of the static keyword in Java?
+
+Where can we use the static keyword inside a class?
+
+What are the benefits of using String in Java?
+
+Why is String immutable in Java?
+
+Explain the main OOPs concepts in Java.
+
+What is the difference between encapsulation and abstraction?
+
+How do we decide when to use an interface or an abstract class?
+
+What is the Java Collection Framework?
+
+Define a HashMap key–value pair.
+
+How do you define a HashMap with Integer key and String value?
+
+If we add multiple pairs and compare a String with a value, what happens?
+
+If the value matches, how can we remove that key–value pair?
+
+What will be the output and why when comparing or removing values?
+
+What happens if we don’t override hashCode() and equals() in custom objects used as keys?
+
+How do you design a REST API controller to return an Employee object by ID?
+
+How can we make the API more flexible for user input?
+
+What happens after adding flexibility to the API (like query parameters or DTOs)?
+
+How can we call another service from a controller?
+
+What are the alternatives to RestTemplate?
+
+What are different Spring Boot starters?
+
+What is the purpose of the @SpringBootApplication annotation?
+
+How can we perform testing in Java?
+
+What is Swagger?
+
+How do we generate Swagger UI in a Spring Boot project?
+
+What is OAuth 2.0 and how does it work?
+
+What is Kafka?
+
+What is the purpose of using Kafka?
+
+Why do we use Kafka in microservices?
+
+How can we troubleshoot Kafka?
+
+How do we troubleshoot Kafka in production?
+
+Core Java & Collections
+Difference between ArrayList and LinkedList?
+
+Why is ArrayList faster than LinkedList?
+
+When to use ArrayList vs LinkedList?
+
+How HashMap works internally?
+
+What happens if we do map.put("country", "India") and then map.put("country", "Pakistan")?
+
+Difference between HashMap and ConcurrentHashMap?
+
+Explain time complexity of ArrayList and LinkedList operations.
+
+⚙️ Java 8 Concepts
+
+What are the main features of Java 8?
+
+What is a Lambda Expression?
+
+What is a Functional Interface?
+
+What is a Single Abstract Method (SAM)?
+
+How to remove duplicates using Stream API?
+
+How to find only duplicates using Stream API?
+
+What is the Optional class and why is it useful?
+
+🧩 Design Principles
+
+Explain the SOLID principles briefly.
+
+🧠 Microservices & Cloud
+
+What is Service Discovery in microservices?
+
+What are common AWS services used in backend?
+
+Difference between docker build and docker compose?
+
+What is the use of docker build command?
+
+📊 Database
+
+How to find the second highest salary in MySQL?
+
+Difference between MongoDB and Relational DB?
+
+Difference between Relational DB and NoSQL DB?
+
+Can RDBMS store unstructured data like MongoDB?
+
+⚡ Kafka
+
+What is Kafka?
+
+Why do we use Kafka — main advantages?
+
+What is a Kafka topic?
+
+💻 Coding
+
+Write code to merge two sorted ArrayLists without using streams.
+
+Explain the logic behind the merge two sorted lists code.
+
+YATRA Final Round*
+
+
+Core Java
+
+What is SOLID and can you explain each principle briefly?
+
+What is the difference between interface and abstract class?
+
+Explain method overloading rules.
+
+Explain method overriding rules.
+
+Explain the access modifier rules in overriding.
+
+What is the difference between final, private, and static methods in overriding?
+
+What is the difference between a JAR and a WAR file?
+
+What is a container, and why do we need it?
+
+What is the difference between Maven and Gradle?
+
+When do you prefer Maven, and when do you prefer Gradle?
+
+Why is Gradle faster, and how does Gradle build cache work?
+
+How does Gradle build work internally?
+
+Spring / Backend
+
+How did you implement authentication and login in your project?
+
+Did you create sessions, or did you use JWT?
+
+How did you handle token expiry?
+
+What is optimistic locking, and how does it work?
+
+What is the difference between optimistic and pessimistic locking?
+
+What is @Version, and why do we use it?
+
+In a multi-threaded application, how do you avoid billing data inconsistency?
+
+How do you prevent conflicts before the DB update at application level?
+
+How do you synchronize threads for a specific resource?
+
+How will you use a synchronized block to handle billing updates?
+
+Design Patterns
+
+What is the Decorator Pattern, and where did you use it?
+
+Why do we need an abstract decorator, and where is it used?
+
+When is the CompressionDecorator actually applied?
+
+What issue happens if a decorator class name doesn’t match its responsibility?
+
+SQL
+
+Write a query to find top 2 rankers per section.
+
+What is the difference between RANK() and DENSE_RANK()?
+
+Why do we use DENSE_RANK() in this scenario?
+
+What is the output of the inner rank query?
+
+Dynamic Programming
+
+How many combinations can be formed to reach a target using given coins?
+
+Write a Java code to count combinations for a target sum.
+
+Why do we set dp[0] = 1 in coin combination DP?
+
+What happens if we swap the loops in coin combination DP?
+1. What is Kafka?
+2. What is redis cache?
+3. What is a distributed system?
+4. What is near cache?
+5. Which strategy do we use?
+6. Which design pattern do we use?
+7. What are Java 17 features?
+8. What is a record in Java 17?
+9. What is Lombok plugin?
+10. What is HashMap?
+11. What are types of Map?
+12. What is segment-level locking?
+13. How to improve API response time?
+14. How to validate phone and email with 3rd party?
+15. Why do we use 202 status code?
+16. Why do we use circuit breaker?
+17. How does Spring Boot handle errors (404/500)?
+18. Why do we use ResponseEntity?
+19. Why do we return 500 with ResponseEntity?
+20. Kafka topic retention — how to keep messages forever?
+21. What is consumer sync strategy?
+22. What is Kubernetes API Server?
+23. What is etcd?
+24. Difference between etcd and API Server?
+25. What is ingress and egress?
+
+**Scenerio**
+
+1. Your API depends on a slow 3rd-party service. How will you reduce latency?
+2. Build API → response time is slow → how to handle?
+3. Validation → phone number keeps changing → how to validate?
+4. Email validation → calling 3rd party → how to handle?
+5. API depends on 3rd party → every request takes 1–2 seconds → how to improve latency?
+6. Your service must keep messages forever and process them reliably. How will you set retention and handle consumer sync?
+
+1. HashMap vs ConcurrentHashMap
+2. TreeMap vs HashMap
+3. Spring vs Spring Boot
+4. `@SpringBootApplication` start flow
+5. Starter dependency failure — how to identify
+6. Another way to identify failure
+7. Dependency not injected — how to fix
+8. Break concepts in Spring Boot
+9. Micro booking app — micro list, flow, why
+10. Why microservices
+11. Caching layer — why and how to scale
+12. SLA & TTL with Kafka and Redis
+13. Mongo — salary group by department
+14. `$project`, `$group`, `$push`
+15. Aggregation types
+16. Sorting and top-3 salary query
+17. Event-driven in microservices
+18. Event-driven scenarios
+19. How to implement event-driven
+20. Java 8 features
+21. Optional & default method
+22. How default works
+23. Functional Interface
+24. Predicate, Consumer, Supplier
+25. Runnable vs Callable
+26. Max-salary employee (Java 8)
+27. Lambda for max-salary
+28. Without `max()`
+29. Without `reduce()`
+30. Without `sorted()`
+31. What `.get()` does
+32. Intermediate vs terminal ops
+33. What if no terminal op
+34. Spring Boot features
+35. 2 DB config (Oracle + MySQL)
+36. Oracle loads in dev issue
+37. Auto-config jar conflict
+38. Dev works, prod breaks — how to solve
+
+1. LG project architecture
+2. LG project skills
+3. AWS S3, Lambda, EC2
+4. EC2 in project
+5. LG project scenario
+6. Microservices + Kafka scenario
+7. Sync vs Async
+8. Which one we used
+9. Async scenario
+10. Create list & iterate using stream
+11. Drop a column in SQL
+12. Create index in SQL
+13. @Component vs @Repository
+14. Hibernate fetch types
+15. When to use eager/lazy
+16. PUT vs PATCH
+17. Common HTTP status codes
+18. Redis cache
+19. Redis scenario
+20. Caching strategy
+21. HTTP 500 & Developer best practices
+01/12/25, 5:08 pm - +91 99162 53554: Hexweare
+1. String constant pool
+2. Difference between Callable and Runnable
+3. Output of multiple catch blocks
+4. Difference between interface and abstract class
+5. Why abstract class is still needed after Java 8
+6. Why default and static methods were introduced in Java 8
+7. Thread pool
+8. Difference between final, finally, finalize
+9. Default method meaning
+10. Interface before Java 8
+11. Static methods in interface
+12. ApplicationContext in Spring
+13. IoC container
+14. Default bean scope
+15. Implement Singleton
+16. Write a controller class with a GET method
+17. Write a controller class with a POST method
+18. Circuit breaker pattern
+19. How to implement Feign client
+20. How to handle exceptions
+21. Spring Security
+
+Vzire 1st round
+
+
+Java / Core Concepts
+
+
+What is Circuit Breaker design pattern?
+
+What is ExecutorService?
+
+What is an API Gateway design pattern?
+
+Coding Questions
+
+Check if two strings ("silent", "listen") are anagrams without Java 8 or inbuilt sort.
+
+Given Employee(name, salary, department), find the second-highest salary using Stream API.
+
+Microservices / System Design
+
+Explain the Circuit Breaker pattern (states, purpose, usage).
+
+Explain how an API Gateway works in microservices.
+
+NuSummit Technologies
+1st round 
+
+Java 8 features
+
+Encapsulation
+
+Difference between equals() and ==
+
+Why we cannot create object of abstract class
+
+Why abstract class can have constructor
+
+What is Collection
+
+What are the types of Collections
+
+How to decide which Collection to use
+
+Fast search + insertion order collection
+
+When to use HashMap
+
+Can we overload main method
+
+Singleton class
+
+Different ways to implement Singleton
+
+How HashMap works internally
+
+Difference between volatile and synchronized
+
+Program to find duplicate number using hashCode / HashSet
+
+Find duplicate names using HashSet (ram, shayam…)
+
+Lambda expressions
+
+Functional interface
+
+Why static and default methods added in Java 8
+
+When to use parallel stream vs sequential stream
+
+“Large data” meaning in streams
+
+UNIQUE constraint in SQL
+
+Primary key
+
+Unique key
+
+Index + types of indexes
+
+SQL query: Students belonging to IT department
+
+Line-by-line explanation of the SQL query
+
+Dependency Injection in Spring + types
+
+Explain all types of DI
+
+Spring Boot architecture
+
+Key principles of RESTful services
+
+How to implement global exception handling
+
+How to secure REST API in Spring Boot
+JWT explanation
+
+FINAL ROUND 
+
+✅ API Design & REST
+
+How do you approach designing a Customer API from scratch?
+
+Explain your REST endpoint design strategy for a Customer service.
+
+List all Customer API endpoints with HTTP methods.
+
+Is GET /search?email= a good design? Why?
+
+When do you prefer query param vs path variable?
+
+In which scenarios do you use email-based search APIs?
+
+Why is email used in forgot password instead of customerId?
+
+✅ Security & JWT
+
+What are the contents of a JWT token?
+
+Why do you use POST for forgot-password API instead of GET?
+
+Difference between PUT vs PATCH?
+
+How do you secure APIs using JWT?
+
+✅ Password Reset Flow
+
+What are the endpoints for reset password flow?
+
+How does the forgot-password process work internally?
+
+How do you validate a reset token?
+
+✅ Idempotency & Duplicate Prevention
+
+What is idempotency?
+
+How do you avoid duplicate POST requests?
+
+Design an idempotent POST API using Redis.
+
+Apart from idempotency, what other measures prevent duplicates?
+
+✅ Database & Hibernate
+
+When does Hibernate execute DDL queries?
+
+What happens if the application restarts? Will DDL run again?
+
+Explain spring.jpa.hibernate.ddl-auto values.
+
+What happens when a customer registers after table creation?
+
+Write SQL to create Customer table.
+
+What is a DB deadlock?
+
+How do you prevent deadlocks in production?
+
+What are the key SQL query optimization techniques?
+
+Explain Optimistic Locking with real use case.
+
+✅ AWS S3 & File Upload
+
+How do you upload a file to S3 from Spring Boot?
+
+What is MultipartFile API?
+
+Is S3 region specific? Why does it matter?
+
+What does AmazonS3Client.putObject() do?
+
+Where is the actual file stored when uploading to S3?
+
+✅ Exception Handling
+
+How do you handle exceptions in Spring Boot?
+
+Difference between local try-catch vs Global Exception Handler?
+
+Write a simple try-catch example.
+
+Demonstrate BufferedReader with try-with-resources.
+
+Explain multi-level try-catch.
+
+What happens if exception occurs on the 5th line of a try block?
+
+How do you stop execution after exception?
+
+How does upper layer handle re-thrown exceptions?
+
+How do you close files safely when exception occurs?
+
+✅ Core Java
+
+Explain method overriding using Animal, Dog, Cat.
+
+Explain map() function in Java Streams with example.
+
+✅ Design Patterns & Distributed Systems
+
+Explain Observer Design Pattern with real project example
+
+HCL Tech  1st Round
+
+1. **OOPs concepts**
+2. **Singleton design pattern**
+3. **Sort binary array (0s & 1s)**
+4. **Two Sum problem + explanation**
+5. **Why we use Wrapper classes**
+6. **What happens if using Integer**
+7. **Normal LinkedList vs Collection LinkedList**
+8. **Fail-Fast vs Fail-Safe**
+9. **Volatile keyword**
+10. **How to create a tuple class / record**
+11. **What if fields are public (encapsulation issue)**
+12. **How HashMap works internally**
+13. **Return type of hashCode() & equals()**
+
+ What is a Kafka topic and how does it relate to partitions?
+
+Explain the difference between a topic and a partition in Kafka.
+
+What is a Kafka broker? How does it handle topics and partitions?
+
+What is a consumer group, and how does it affect message consumption?
+
+What is an offset in Kafka? How is it used by consumers?
+
+How does Kafka replication work, and why is it important?
+
+How is the order of message consumption guaranteed in Kafka?
+
+Can Kafka guarantee message order across multiple partitions? Why or why not?
+
+How can you guarantee message order for a specific user?
+
+When producing messages, how does the key affect partitioning and ordering?
+
+How do you debug Redis read-performance issues?
+
+What tools/metrics do you check for Redis performance (latency, slowlog, INFO, MONITOR)?
+
+How do you isolate network vs CPU vs memory vs key-size issues in Redis?
+
+What is the difference between UNLINK and DEL in Redis?
+
+When would you prefer UNLINK over DEL?
+
+Why do we use plain JUnit for standalone classes and Mockito for classes inside the Spring container?
+
+What are the key Mockito annotations (@Mock, @InjectMocks, @ExtendWith)?
+
+How do you test a Spring Controller class?
+
+What is the purpose of @WebMvcTest, MockMvc, and mocking the service layer?
+
+How do you test the database and service layer together?
+
+When do you choose @DataJpaTest vs a full integration test with Testcontainers?
+
+Explain Kafka topics, partitions, and offsets in short.
+
+Why do partitions exist and how do they impact throughput and ordering?
+
+What is the order of Kafka message consumption?
+
+When is ordering guaranteed and when is it not?
+
+How can you guarantee message ordering for a specific user?
+
+How does partitioning by key help?
+
+What are the limitations of key-based ordering?
+
+ Explain OOPs concepts in Java.
+
+How do you identify and fix performance issues in an application?
+
+How do you find intersection of two lists using Java 8 streams?
+
+What is the time complexity of List.contains() vs Set.contains()?
+
+Difference between HashMap and ConcurrentHashMap.
+
+How does HashMap handle collisions?
+
+What is N+1 problem in Hibernate and how do you fix it?
+
+Why @Transactional does not work on private methods?
+
+How do you resolve circular dependency in Spring?
+
+Difference between WHERE and HAVING in SQL.
+
+When should we avoid database indexing?
+
+Write SQL query to find 2nd highest salary.
+
+What is Circuit Breaker and which library is used in Spring Boot?
+
+Explain Circuit Breaker states (Open, Closed, Half-Open).
+
+How does Kafka consumer avoid duplicate messages?
+
+How is Exactly-Once Semantics achieved in Kafka?
+
+How do you implement retry in REST APIs?
+
+How do you use Spring Scheduler?
+
+What is LazyInitializationException and how do you fix it?
+
+https://youtu.be/P2MSKcHkbGs?si=PLvOIr7WIp7L0GR4
+
+
+You designed a Payment module using inheritance, but now behavior changes dynamically at runtime. Would you refactor to composition? Why?
+
+You created a generic Cache<T> but want only Comparable types. How will you restrict it? Explain <T extends Comparable<T>>.
+
+Your app memory keeps increasing though GC runs fine. How will you identify a memory leak?
+
+Given a large ArrayList<Employee>, find max salary using Stream API.
+
+Internally how does HashMap handle collisions after Java 8? When does it convert to Tree?
+
+Why must HashMap keys be immutable? What happens if fields used in hashCode() change?
+
+Convert List<Student> to Map<String, Student> using Stream. What if duplicate keys exist?
+
+Can you subclass Integer? Why is it final?
+
+What is Reflection? When would you avoid it in production?
+
+Explain Serialization and common “Invalid Object” errors.
+
+A controller directly accesses repository. What architectural issue do you see? Explain complete layered architecture.
+
+What is default bean scope? When would you use prototype in real scenarios?
+
+You get circular dependency between ServiceA and ServiceB. How do you resolve it?
+
+Explain @Transactional propagation. Difference between REQUIRED vs REQUIRES_NEW with scenario.
+
+What is AOP? Give a real production example (logging, security, transaction).
+
+What microservice design patterns have you implemented? (Circuit Breaker, API Gateway, Saga?)
+
+After patch deployment, production starts failing. How do you debug? Rollback strategy?
+
+What are main components of Kafka (Broker, Topic, Partition, Zookeeper/KRaft, Producer, Consumer)?
+
+Consumer lag is increasing in production. What could be the reasons?
+
+You faced duplicate messages in Kafka. How did you handle idempotency?
+
+What challenges did you face during Kafka scaling?
+
+What is Docker? Difference between Image and Container?
+
+App works locally but fails in Docker production. What debugging steps?
+
+What production challenges did you face (memory limits, port conflicts, volume issues)?
+
+Difference between RANK and DENSE_RANK with real dataset scenario.
+
+Find 3rd highest salary department-wise in MySQL. What if salary duplicates?
+
+What are Liquibase/Flyway migrations? Why not manual SQL in prod?
+
+Difference between merge vs rebase. When would rebase be dangerous?
+
+Difference between @Mock and @InjectMocks in Mockito.
+
+Explain singleton pattern. How to break it using reflection?
+ What are the latest Java version features?
+
+What are the use cases of Record class?
+
+Where do we use Sealed classes?
+
+What is DDD, TDD, BDD? Differences?
+
+Explain Kafka use case in microservices.
+
+What is @Transactional and its internal working?
+
+Explain AOP Proxy in Spring.
+
+What is Saga Pattern? Choreography vs Orchestration?
+
+Difference between CompletableFuture and ExecutorService.
+
+Explain SOLID principles with examples.
+
+What is N+1 query problem?
+
+Difference between @Qualifier and @Primary.
+
+How to find Nth highest salary in SQL?
+
+What is Fault Tolerance in microservices?
+
+Difference between Stream and Parallel Stream.
+
+What is interface? When do you use it over abstract class?
+
+Explain default, static and private methods in interface with use cases.
+
+Explain ClassLoader in Java.
+
+Equals–hashCode contract?
+
+What happens if only equals() is overridden?
+
+What happens if only hashCode() is overridden?
+
+Difference between Runnable and Callable.
+
+What is Future? Is it blocking? What will you use for non-blocking?
+
+What is CompletableFuture? Important methods?
+
+Difference between Checked and Unchecked exceptions.
+
+Inheritance & method overriding scenarios in Java.
+
+How does runtime polymorphism work?
+
+Constructor injection vs Field injection?
+
+Name some design patterns used in microservices.
+
+Explain Saga design pattern and how Kafka/message broker is used in it.
+
+If Service A calls Service B and B is failing (temporary + permanent), how will you prevent cascading failure?
+
+You mentioned improving system performance by 30%. How did you achieve it (SQL, API logic, transaction tuning)?
+
+What is Redis? Explain internal working.
+
+What is B-Tree indexing?
+
+B-Tree indexing vs Hash-based indexing.
+
+What is indexing? Types of indexing? Which one did you use in project and why?
+
+Explain Kafka architecture.
+
+Where does message go inside Kafka? Key partitioning strategy?
+
+If Kafka broker fails, how is new partition leader elected?
+
+Stream API coding: Group list of strings by length and display result.
+
+Stream API coding: Sort list of strings in descending alphabetical order.
+Someone asked me how a person with just 4.5 years of experience can get 27 LPA.*
+
+My answer was simple - he was able to confidently answer real production-level questions like the ones below. Not theory. Not definitions. But actual system design and failure-handling scenarios.
+
+
+Your Spring Boot microservice is calling another service using Feign, and the downstream service becomes slow or unavailable. How would you prevent cascading failures?
+
+A Kafka consumer is processing duplicate messages in production. How would you design the system to ensure idempotency?
+
+You need exactly-once processing between Kafka and a database update. How would you achieve this in Spring Boot?
+
+Your Kafka consumer group is showing high lag during peak traffic. What steps would you take to troubleshoot and fix it?
+
+A message fails during Kafka consumption after partial database update. How would you handle retries and maintain data consistency?
+
+Your microservices need to maintain data consistency without using distributed transactions. How would you design it using Kafka?
+
+JWT access token expires in 5 minutes, but users should not log in repeatedly. How would you design authentication flow?
+
+A new field is added to Kafka message schema. How will you ensure backward compatibility across services?
+
+You need to process 1 million events per minute using Kafka and Spring Boot. How would you design for scalability?
+
+A Spring @Transactional method is not rolling back on checked exception. Why is this happening and how would you fix it?
+
+Your application has heavy read traffic. How would you design Redis caching strategy (cache-aside, write-through, write-behind)?
+
+Redis is returning stale data after DB update. How would you solve cache consistency problems?
+
+Multiple instances of your service are trying to update the same record. How would you implement distributed locking using Redis?
+
+You want to implement rate limiting for APIs using Redis. How would you design it?
+
+Redis server goes down in production. How would you ensure high availability and data durability?
+19/02/26, 5:13 pm - +91 99162 53554: prepare for these questions to stand out in the interview.
+
+1. Your Spring Boot microservice is under heavy load and response time suddenly increases - how would you identify and fix the bottleneck?
+
+2. A downstream service becomes slow or unavailable during a Feign call — how would you design resilience and fallback handling?
+
+3. In a Kafka-based system, messages are getting duplicated — how would you ensure idempotency and exactly-once processing?
+
+4. Your system is facing race conditions in a high-concurrency payment module - how would you fix it?
+
+5. During traffic spikes (10x normal load), your microservices start failing - what scaling and architectural strategies would you apply?
+
+6. Two microservices need to maintain data consistency across different databases - how would you implement Saga (Orchestration vs Choreography)?
+
+7. Kafka consumers in a group are frequently rebalancing - what could be the reason and how would you stabilize it?
+
+8. A production issue shows high CPU usage in JVM - how would you analyze GC logs and optimize memory?
+
+9. Your application is slow after adding indexes - how is that possible and how would you troubleshoot it?
+
+10. You need to design a real-time notification system for 5 million users - what architecture would you propose?
+
+11. A HashMap is causing performance degradation in a high-traffic API - what could be wrong internally?
+
+12. You are seeing thread starvation in production - how would you tune ThreadPoolExecutor configuration?
+
+13. In Kafka, one partition is overloaded while others are idle - how would you fix uneven partition distribution?
+ 
+14. You must secure microservices with minimal latency overhead - JWT, OAuth2, API Gateway - how would you design it?
+
+15. Your database shows deadlocks frequently - optimistic or pessimistic locking? How do you decide?
+
+16. Logging is scattered across services and debugging is difficult - how would you implement centralized & distributed logging?
+
+17. A REST API must handle both strong consistency and high availability - how would you balance CAP trade-offs?
+
+18. You need to migrate from monolith to microservices - what challenges and migration strategy would you follow?
+
+19 .Kafka broker crashes unexpectedly - how does replication and ISR mechanism protect data?
+
+: How do you handle consumer lag in production?
+What happens if one Kafka broker goes down?
+How do you tune partition count for high throughput?
+How do you design Kafka for 5x traffic growth?
+When would you choose Kafka over REST for communication?
+How do you ensure exactly-once processing?
+How do you debug high end-to-end latency in Kafka?
+What happens if one microservice becomes slow?
+How do you implement circuit breaker and why?
+How do you reduce API response time in production?
+How do you handle distributed transactions?
+How do you scale a read-heavy service?
+How do you manage configuration across environments?
+How do you trace requests across multiple services?
+When would you use Redis vs DB caching?
+How do you prevent cache stampede?
+What is Redis eviction policy and how do you choose one?
+How do you design Redis for high availability?
+How do you handle hot keys problem?
+How do you measure and tune Redis latency?
+24/02/26, 6:46 pm - +91 99162 53554: high-impact Kafka, Microservices & Redis performance optimization interview questions
+24/02/26, 6:46 pm - ~ Gourang Agrawal added +91 74158 98636
+24/02/26, 7:57 pm - ~ सत्यमेव जयते removed +91 73863 45490
+24/02/26, 8:51 pm - ~ सत्यमेव जयते removed +91 99519 32921
+25/02/26, 8:22 am - +91 99162 53554: <Media omitted>
+25/02/26, 8:23 am - +91 99162 53554: People are able to move from service to product based company as well.
+
+This is the power of dedicated interview preparation batch.
+25/02/26, 8:24 am - +91 99162 53554: Batch starting tonight IST
+
+Only one seat left. DM to know more
+25/02/26, 10:00 am - ~ सत्यमेव जयते removed +91 73788 58379
+25/02/26, 3:38 pm - +91 99162 53554: 1. How do you identify performance bottlenecks in a Spring Boot microservice running in production? Which tools have you used?
+
+2. Explain how JVM tuning (Heap, GC, G1/ZGC) impacts application performance. What parameters have you tuned?
+
+3. How would you handle a sudden 5x traffic spike without degrading response time?
+
+4. What strategies do you use to optimize database performance (indexing, query tuning, connection pooling)?
+
+5. How do you reduce API response time in a high-latency microservices architecture?
+
+6. Explain thread pool optimization in Java. What happens if the pool size is too high or too low?
+
+7. How do caching mechanisms (Redis, in-memory cache, CDN) improve performance? When should you avoid caching?
+
+8. How do you detect and fix memory leaks in a Java application? What tools have you used (JProfiler, VisualVM, etc.)?
+25/02/26, 3:39 pm - +91 99162 53554: Performance-tuning-related questions asked in recent interviews. Please do go through them.
+
+What is the difference between Stream API and Collection API? Why are Streams not stored in memory?
+
+Explain lazy evaluation in Streams. How does it improve performance?
+
+What is the difference between map() and flatMap() with real use cases?
+
+How does parallelStream() work internally? When should you avoid it?
+
+Explain Collectors.groupingBy() with downstream collectors (e.g., counting, mapping).
+
+What are stateful vs stateless intermediate operations? Give examples.
+
+How does Stream handle thread safety in parallel streams?
+
+What is the difference between findFirst() and findAny() in parallel streams?
+
+How do you handle checked exceptions inside Stream operations?
+
+Write a Stream pipeline to find the second highest salary from a list of employees efficiently.
+
+ Explain different communication patterns between microservices (sync vs async) and their trade-offs.
+
+What is Apache Kafka and how does it differ from traditional message brokers?
+
+Explain Kafka architecture (Broker, Topic, Partition, Producer, Consumer, Zookeeper/KRaft).
+
+How does Kafka store and replicate messages internally?
+
+What is a Kafka topic and how do partitions improve scalability?
+
+Is Kafka synchronous or asynchronous? Can it support both? Explain.
+
+Describe complete Kafka message flow in a microservices ecosystem.
+
+How do you implement Kafka in Spring Boot (producer + consumer configuration)?
+
+What is Feign Client? How does it work internally in Spring Cloud?
+
+What is RabbitMQ and how is it different from Kafka?
+
+Is Feign synchronous or asynchronous? How can we make it async?
+
+When would you choose Kafka over RabbitMQ and vice versa?
+
+Are Kafka and RabbitMQ asynchronous by default? Explain delivery guarantees (at-least-once, exactly-once).
+
+What is OOPS? Explain its 4 pillars with real-world enterprise examples.
+
+Explain inheritance with a real-time microservice or banking example.
+
+Why do we need inheritance? What are its drawbacks?
+
+Explain encapsulation in large-scale applications.
+
+What is polymorphism? Explain method overloading vs overriding.
+
+What are compile-time and runtime polymorphism?
+
+What is covariant return type in Java with example?
+
+What is an exception? Explain checked vs unchecked exceptions.
+
+How does Spring Boot handle global exception handling?
+
+What is the purpose of the finally block?
+
+Difference between final, finally, and finalize()?
+
+Explain Java memory structure (Heap, Stack, Metaspace).
+
+What is JVM metadata?
+
+Where are String objects stored? What is String Pool?
+
+Difference between == and equals()?
+
+What are design patterns? Explain Singleton in Spring context.
+
+How do you create a thread-safe Singleton in Java?
+
+What does @SpringBootApplication internally combine?
+
+How does @ComponentScan work?
+
+What was @Required annotation and why is it deprecated?
+
+How does Spring Boot implement Dependency Injection internally?
+
+Difference between field injection, setter injection, and constructor injection (best practice)?
+
+What is Lombok and how does it reduce boilerplate code?
+
+How is logging configured in Spring Boot (Logback/Log4j2)?
+
+Explain layered architecture in Spring Boot (Controller → Service → Repository).
+
+What is @RestController and how is it different from @Controller?
+
+What is REST API? Explain REST constraints.
+
+What is @ResponseBody?
+
+What is @RequestMapping and its variants?
+
+Which layer should contain business logic?
+
+Who builds and returns the HTTP response in Spring Boot flow?
+
+What does @PostMapping typically return?
+
+What is ResponseEntity and why is it used?
+
+Can we return ResponseEntity<?> from controller methods? Why?
+
+How do you implement batch retrieval and pagination in Spring Boot?
+
+Your application processes 10,000 requests per second and multiple threads update a shared cache.
+How would you decide between synchronized block, ReentrantLock, and ConcurrentHashMap?
+
+Suppose two threads update the same object, and sometimes the data becomes inconsistent.
+How would you debug whether it is a class lock issue or object lock issue?
+
+You are storing millions of entries in ConcurrentHashMap and performance suddenly drops.
+What could be the internal reasons and how would you optimize it?
+
+You have a thread pool executing background tasks, but after some time the system becomes slow.
+How would you identify thread starvation or thread leakage?
+
+Your service calls three external APIs in parallel and needs all responses before processing.
+Would you use Future, CompletableFuture, or ExecutorService? Why?
+
+In production, the heap memory gradually increases until the application crashes.
+What tools and approach would you use to detect and fix the memory leak?
+
+
+Your REST API throws different exceptions from multiple services and clients are receiving inconsistent error responses.
+How would you design a global exception handling strategy?
+
+Your Spring Boot application takes 60 seconds to start in production.
+What steps would you take to analyze and reduce startup time?
+
+Your API receives large JSON payloads and sometimes invalid data causes failures in deeper service layers.
+How would you validate requests at the controller level?
+
+During application startup, Spring fails due to circular dependency between ServiceA and ServiceB.
+How would you redesign or resolve this issue?
+
+In a real system, circular dependency occurs between multiple services, not just two.
+What architectural changes would you recommend?
+
+Suppose you have Customer → Orders → OrderItems relationships.
+How would you design JPA entity mappings to maintain these relationships correctly?
+
+If cascade and fetch type are configured incorrectly, it may cause performance issues or unwanted deletions.
+Can you explain real scenarios where cascade or fetch type caused production problems?
+
+
+Service A calls Service B synchronously. Suddenly Service B becomes slow, and Service A starts timing out.
+What resilience patterns would you implement?
+
+Your microservices system suddenly receives 10x traffic due to a sale event.
+What strategies would you use to handle traffic without crashing services?
+
+In production, users report slow responses, but logs do not clearly show the root cause.
+What step-by-step debugging approach would you follow?
+
+
+During deployment, a new version causes failures in production.
+What deployment strategies can help avoid downtime?
+
+Your Docker container is 300MB larger than expected.
+How would you optimize the Dockerfile and image size?
+
+Your team accidentally merged a feature branch that broke production code.
+How would git rebase or git revert help in this situation?
+
+Your CI/CD pipeline fails intermittently during builds.
+How would you debug and stabilize the pipeline?
+
+
+Your application is deployed on AWS and suddenly traffic increases by 5x during peak hours.
+Which AWS services would you use to scale the system automatically?
